@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los ladronzuelos de bicicletas</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Bicicleta</legend>
+            <label for="dia">Día</label><br>
+            <input type="date" id="dia" name="dia" autofocus required tabindex="1"><br>
+            <label for="hora">Hora</label><br><br>
+            <input type="datetime" id="hora" name="hora" required><br>
+            <label for="color">Color</label><br>
+            <input type="color" id="color" name="color"><br><br>
+            <label for="precio">Rango de precio entre 100€ - 1000€</label><br>
+            <input type="range" id="precio" name="precio" min="100" max="1000"><br><br>
+            <label for="tipo">Tipo de bicicleta</label><br>
+            <select name="tipo" id="tipo">
+                <optgroup label="Paseo">
+                    <option>Señorial</option>
+                    <option>Anti-plebeyos</option>
+                    <option>PorEncimaDelHombro</option>
+                </optgroup>
+                <optgroup label="Montaña">
+                    <option>Gamusinos</option>
+                    <option>Hueleflores premium</option>
+                    <option>Fango lovers</option>
+                </optgroup>
+                <optgroup label="Carreras">
+                    <option>Metroymedio</option>
+                    <option>3 de la tarde. Fluorescente edition</option>
+                    <option>Grupitors</option>
+                </optgroup>
+            </select><br><br>
+            <label for="acc">Accesorios</label><br>
+            <select multiple name="acc" id="acc">
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bomba">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="Foco">Foco</option>
+            </select><br><br>
+            <label for="marca">Marca</label><br>
+            <select name="marca" id="marca">
+                <option value="specialized">specialized</option>
+                <option value="trek">trek</option>
+                <option value="merida">merida</option>
+                <option value="scott">scott</option> 
+                <option value="giant">giant</option>
+                <option value="cube">cube</option>
+                <option value="lapierre">lapierre</option>
+                <option value="orbea">orbea</option>
+                <option value="cannondale">cannondale</option>
+                <option value="bmc">bmc</option>
+                <option value="canyon">canyon</option>
+                <option value="look">look</option>
+                <option value="protek">protek</option>
+                <option value="megamo">megamo</option>
+                <option value="pinarello">pinarello</option>
+                <option value="bianchi">bianchi</option>
+                <option value="bh">bh</option>
+                <option value="factor">factor</option>
+                <option value="ghost">ghost</option>
+                <option value="cervélo">cervélo</option>
+                <option value="argon">argon</option>
+            </select><br>
+        </fieldset><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    
+</body>
+</html>
